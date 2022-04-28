@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   font-family: 'open sans' , sans-serif;
-  
 }
 
 ul{
@@ -17,8 +16,8 @@ ul li a {
 
 
 div img{
-display: block;
-width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .flex-container{
@@ -27,7 +26,6 @@ width: 100%;
   margin: auto;
   width: 100%;
   min-width: 320px;
- 
 }
 
 header{
@@ -37,7 +35,6 @@ header{
   align-items: center;
   color: #fff;
   border-bottom: 10px solid white;
-
 }
 
 header .list-items{
@@ -48,7 +45,6 @@ header .list-items{
   align-items: center;
   font-size: 12px;
   font-weight: 700px; 
-  
 }
 
 .list-items li a{
@@ -59,23 +55,24 @@ header .list-items{
 
 #logo {
   width: 150px;
-  
 }
 
 header .menu{
   justify-content: space-between;
   max-width: 80%;
-  
-}
-
-#imagemGeral {
-  border-bottom: 10px solid black;
 }
 
 #banner {
   border-top: 10px solid black;
 }
 
+#store{
+  background-color: #000000;
+  color: white;
+  margin: 0px  !important;
+  align-items: center;
+  text-align: center;
+}
 
 #produtos {
   display: flex;
@@ -95,8 +92,6 @@ div .produtosDestaque{
 justify-content: center;
 }
 
-
-
 h3 {
   margin-top: 6px;
   font-size: 16px;
@@ -110,34 +105,24 @@ footer{
   align-items: center;
 }
 
-
-
 #redessociais{
   align-items: center;
   float: left;
   display: flex;
   text-align: center;
   margin: 10px;
-  
- 
-
- 
 }
 
 #redessociais img{
- width: 30Px;
- margin-right: 20px;
- align-content: center;
- 
+  width: 30Px;
+  margin-right: 20px;
+  align-content: center; 
 }
 
 footer #email{
   float: right;
   color: #fff;
   margin:5px 10px ;
-
   align-items: center; align-content: center;
-  align-items: center;
-
 }
 
